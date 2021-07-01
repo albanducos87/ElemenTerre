@@ -1,10 +1,3 @@
-/**
-* Template Name: Bethany - v4.3.0
-* Template URL: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -352,9 +345,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# accueil Section
 --------------------------------------------------------------*/
-#hero {
+#accueil {
   width: 100%;
   height: 80vh;
   background: url("../img/couv.jpg") center center;
@@ -362,11 +355,11 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-#hero .container {
+#accueil .container {
   padding-top: 80px;
 }
 
-#hero:before {
+#accueil:before {
   content: "";
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
@@ -376,7 +369,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
 }
 
-#hero h1 {
+#accueil h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
@@ -384,7 +377,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#hero h2 {
+#accueil h2 {
   color: #eee;
   margin-bottom: 40px;
   font-size: 15px;
@@ -394,7 +387,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-#hero .btn-get-started {
+#accueil .btn-get-started {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -409,25 +402,25 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#hero .btn-get-started:hover {
+#accueil .btn-get-started:hover {
   background: #a8077b;
   border: 2px solid #a8077b;
 }
 
 @media (min-width: 1024px) {
-  #hero {
+  #accueil {
     background-attachment: fixed;
   }
 }
 
 @media (max-width: 768px) {
-  #hero {
+  #accueil {
     height: 100vh;
   }
-  #hero .container {
+  #accueil .container {
     padding-top: 60px;
   }
-  #hero h1 {
+  #accueil h1 {
     font-size: 32px;
     line-height: 36px;
   }
@@ -560,24 +553,24 @@ section {
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
-.why-us .content {
+.presentation .content {
   padding: 30px;
   background: #a8077b;
   border-radius: 4px;
   color: #fff;
 }
 
-.why-us .content h3 {
+.presentation .content h3 {
   font-weight: 700;
   font-size: 34px;
   margin-bottom: 30px;
 }
 
-.why-us .content p {
+.presentation .content p {
   margin-bottom: 30px;
 }
 
-.why-us .content .more-btn {
+.presentation .content .more-btn {
   display: inline-block;
   background: rgba(255, 255, 255, 0.1);
   padding: 6px 30px 8px 30px;
@@ -586,16 +579,16 @@ section {
   transition: all ease-in-out 0.4s;
 }
 
-.why-us .content .more-btn i {
+.presentation .content .more-btn i {
   font-size: 14px;
 }
 
-.why-us .content .more-btn:hover {
+.presentation .content .more-btn:hover {
   color: #a8077b;
   background: #fff;
 }
 
-.why-us .icon-boxes .icon-box {
+.presentation .icon-boxes .icon-box {
   text-align: center;
   border-radius: 10px;
   background: #fff;
@@ -605,24 +598,24 @@ section {
   transition: 0.3s;
 }
 
-.why-us .icon-boxes .icon-box i {
+.presentation .icon-boxes .icon-box i {
   font-size: 40px;
   color: #a8077b;
   margin-bottom: 30px;
 }
 
-.why-us .icon-boxes .icon-box h4 {
+.presentation .icon-boxes .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 30px 0;
 }
 
-.why-us .icon-boxes .icon-box p {
+.presentation .icon-boxes .icon-box p {
   font-size: 15px;
   color: #848484;
 }
 
-.why-us .icon-boxes .icon-box:hover {
+.presentation .icon-boxes .icon-box:hover {
   box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.15);
 }
 
@@ -674,7 +667,7 @@ section {
   color: #fff;
 }
 
-.cta .cta-btn:hover {
+.cta .cta-btn:hover a {
   background: #a8077b;
   border: 2px solid #a8077b;
 }
@@ -684,17 +677,19 @@ section {
   border: 2px solid #a8077b;
 }
 
+
+
 /*--------------------------------------------------------------
-# Services
+# projet
 --------------------------------------------------------------*/
-.services .icon-box {
+.projet .icon-box {
   text-align: center;
   padding: 40px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
 
-.services .icon-box .icon {
+.projet .icon-box .icon {
   margin: 0 auto;
   width: 64px;
   height: 64px;
@@ -708,57 +703,57 @@ section {
   color: #a8077b;
 }
 
-.services .icon-box .icon i {
+.projet .icon-box .icon i {
   font-size: 28px;
 }
 
-.services .icon-box h4 {
+.projet .icon-box h4 {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
 }
 
-.services .icon-box h4 a {
+.projet .icon-box h4 a {
   color: #36343a;
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-box p {
+.projet .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.services .icon-box:hover {
+.projet .icon-box:hover {
   border-color: #fff;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
 }
 
-.services .icon-box:hover h4 a {
+.projet .icon-box:hover h4 a {
   color: #a8077b;
 }
 
-.services .icon-box:hover .icon {
+.projet .icon-box:hover .icon {
   color: #fff;
   background: #a8077b;
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# inscriptions
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+.inscriptions .inscriptions-item {
   margin-bottom: 30px;
   align-self: center;
 }
 
-.portfolio #portfolio-flters {
+.inscriptions #inscriptions-flters {
   padding: 0;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
 }
 
-.portfolio #portfolio-flters li {
+.inscriptions #inscriptions-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 8px 16px 8px 16px;
@@ -773,16 +768,16 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.inscriptions #inscriptions-flters li:hover, .inscriptions #inscriptions-flters li.filter-active {
   color: #fff;
   background: #a8077b;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.inscriptions #inscriptions-flters li:last-child {
   margin-right: 0;
 }
 
-.portfolio .portfolio-wrap {
+.inscriptions .inscriptions-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
@@ -790,7 +785,7 @@ section {
   background: rgba(54, 52, 58, 0.6);
 }
 
-.portfolio .portfolio-wrap::before {
+.inscriptions .inscriptions-wrap::before {
   content: "";
   background: rgba(54, 52, 58, 0.6);
   position: absolute;
@@ -803,11 +798,11 @@ section {
   opacity: 0;
 }
 
-.portfolio .portfolio-wrap img {
+.inscriptions .inscriptions-wrap img {
   transition: all ease-in-out 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-info {
+.inscriptions .inscriptions-wrap .inscriptions-info {
   opacity: 0;
   position: absolute;
   top: 0;
@@ -823,13 +818,13 @@ section {
   padding: 20px;
 }
 
-.portfolio .portfolio-wrap .portfolio-info h4 {
+.inscriptions .inscriptions-wrap .inscriptions-info h4 {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
 }
 
-.portfolio .portfolio-wrap .portfolio-info p {
+.inscriptions .inscriptions-wrap .inscriptions-info p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
   text-transform: uppercase;
@@ -838,12 +833,12 @@ section {
   font-style: italic;
 }
 
-.portfolio .portfolio-wrap .portfolio-links {
+.inscriptions .inscriptions-wrap .inscriptions-links {
   text-align: center;
   z-index: 4;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a {
+.inscriptions .inscriptions-wrap .inscriptions-links a {
   color: #fff;
   margin: 0 5px 0 0;
   font-size: 28px;
@@ -851,39 +846,39 @@ section {
   transition: 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
+.inscriptions .inscriptions-wrap .inscriptions-links a:hover {
   color: #00cc95;
 }
 
-.portfolio .portfolio-wrap:hover::before {
+.inscriptions .inscriptions-wrap:hover::before {
   opacity: 1;
 }
 
-.portfolio .portfolio-wrap:hover img {
+.inscriptions .inscriptions-wrap:hover img {
   transform: scale(1.2);
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-info {
+.inscriptions .inscriptions-wrap:hover .inscriptions-info {
   opacity: 1;
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# inscriptions Details
 --------------------------------------------------------------*/
-.portfolio-details {
+.inscriptions-details {
   padding-top: 40px;
 }
 
-.portfolio-details .portfolio-details-slider img {
+.inscriptions-details .inscriptions-details-slider img {
   width: 100%;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination {
+.inscriptions-details .inscriptions-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.inscriptions-details .inscriptions-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -891,16 +886,16 @@ section {
   border: 1px solid #a8077b;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.inscriptions-details .inscriptions-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #a8077b;
 }
 
-.portfolio-details .portfolio-info {
+.inscriptions-details .inscriptions-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(54, 52, 58, 0.08);
 }
 
-.portfolio-details .portfolio-info h3 {
+.inscriptions-details .inscriptions-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -908,34 +903,34 @@ section {
   border-bottom: 1px solid #eee;
 }
 
-.portfolio-details .portfolio-info ul {
+.inscriptions-details .inscriptions-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.inscriptions-details .inscriptions-info ul li + li {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-description {
+.inscriptions-details .inscriptions-description {
   padding-top: 30px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.inscriptions-details .inscriptions-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
+.inscriptions-details .inscriptions-description p {
   padding: 0;
 }
 
 /*--------------------------------------------------------------
-# Testimonials
+# don
 --------------------------------------------------------------*/
-.testimonials .testimonial-item {
+.don .testimonial-item {
   box-sizing: content-box;
   padding: 30px 30px 0 30px;
   margin: 30px 15px;
@@ -945,55 +940,55 @@ section {
   background: #fff;
 }
 
-.testimonials .testimonial-item .testimonial-img {
+.don .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
   border: 4px solid #fff;
   margin: 0 auto;
 }
 
-.testimonials .testimonial-item h3 {
+.don .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #111;
 }
 
-.testimonials .testimonial-item h4 {
+.don .testimonial-item h4 {
   font-size: 14px;
   color: #999;
   margin: 0;
 }
 
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.don .testimonial-item .quote-icon-left, .don .testimonial-item .quote-icon-right {
   color: #00cc95;
   font-size: 26px;
 }
 
-.testimonials .testimonial-item .quote-icon-left {
+.don .testimonial-item .quote-icon-left {
   display: inline-block;
   left: -5px;
   position: relative;
 }
 
-.testimonials .testimonial-item .quote-icon-right {
+.don .testimonial-item .quote-icon-right {
   display: inline-block;
   right: -5px;
   position: relative;
   top: 10px;
 }
 
-.testimonials .testimonial-item p {
+.don .testimonial-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
 }
 
-.testimonials .swiper-pagination {
+.don .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.testimonials .swiper-pagination .swiper-pagination-bullet {
+.don .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -1001,18 +996,18 @@ section {
   border: 1px solid #a8077b;
 }
 
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+.don .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #a8077b;
 }
 
 /*--------------------------------------------------------------
-# Team
+# equipe
 --------------------------------------------------------------*/
-.team {
+.equipe {
   background: #fff;
 }
 
-.team .member {
+.equipe .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
@@ -1020,29 +1015,29 @@ section {
   text-align: center;
 }
 
-.team .member .pic {
+.equipe .member .pic {
   overflow: hidden;
   width: 150px;
   border-radius: 50%;
   margin: 0 auto 20px auto;
 }
 
-.team .member .pic img {
+.equipe .member .pic img {
   transition: ease-in-out 0.3s;
 }
 
-.team .member:hover img {
+.equipe .member:hover img {
   transform: scale(1.1);
 }
 
-.team .member h4 {
+.equipe .member h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
   color: #36343a;
 }
 
-.team .member span {
+.equipe .member span {
   display: block;
   font-size: 15px;
   padding-bottom: 10px;
@@ -1050,7 +1045,7 @@ section {
   font-weight: 500;
 }
 
-.team .member span::after {
+.equipe .member span::after {
   content: '';
   position: absolute;
   display: block;
@@ -1062,19 +1057,19 @@ section {
   transform: translateX(-50%);
 }
 
-.team .member p {
+.equipe .member p {
   margin: 10px 0 0 0;
   font-size: 14px;
 }
 
-.team .member .social {
+.equipe .member .social {
   margin-top: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.team .member .social a {
+.equipe .member .social a {
   transition: ease-in-out 0.3s;
   display: flex;
   align-items: center;
@@ -1085,17 +1080,17 @@ section {
   background: #a8a5ae;
 }
 
-.team .member .social a i {
+.equipe .member .social a i {
   color: #fff;
   font-size: 16px;
   margin: 0 2px;
 }
 
-.team .member .social a:hover {
+.equipe .member .social a:hover {
   background: #a8077b;
 }
 
-.team .member .social a + a {
+.equipe .member .social a + a {
   margin-left: 8px;
 }
 
